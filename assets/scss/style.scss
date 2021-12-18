@@ -1716,11 +1716,38 @@ body{
     }
   }
 }
-
-
+.quote{
+  .quote-information{
+    position: relative;
+    bottom: 114px;
+    left: 408px;
+    width: 296px;
+    background: linear-gradient(331.41deg, #F0EBFF -4.05%, #FFFFFF 34.42%);
+    box-shadow: 0px 13.5277px 39.7872px rgba(187, 166, 255, 0.2);
+    border-radius: 11.9362px;
+    .quote-information__items{
+      padding: 0px 31px 0px 31px;
+      .quote__items{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        color: #303030;
+      }
+      .quote__text{
+        font-style: italic;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 17px;
+        color: #303030;
+        white-space: pre-line;
+      }
+    }
+  }
+}
 .footer{
   border-top: 1px solid #303030;
   .container{
+
     .footer-top__menu{
       display: flex;
       justify-content: space-between;
@@ -1750,6 +1777,32 @@ body{
           }
         }
       }
+    }
+    .footer-menu__bottom{
+      display: flex;
+      justify-content: space-between;
+      background: #E8EDF3;
+      .bottom-information__left{
+        p{
+          font-style: normal;
+          font-weight: normal;
+          font-size: 10px;
+          color: #7A7A7A;
+        }
+
+      }
+      .bottom-information__right{
+        display: flex;
+        p{
+          font-style: normal;
+          font-weight: normal;
+          font-size: 10px;
+          line-height: 20px;
+          color: #7A7A7A;
+        }
+
+      }
+
     }
   }
 }

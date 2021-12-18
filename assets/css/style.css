@@ -1702,6 +1702,35 @@ body {
   cursor: pointer;
 }
 
+.quote .quote-information {
+  position: relative;
+  bottom: 114px;
+  left: 408px;
+  width: 296px;
+  background: -o-linear-gradient(118.59deg, #F0EBFF -4.05%, #FFFFFF 34.42%);
+  background: linear-gradient(331.41deg, #F0EBFF -4.05%, #FFFFFF 34.42%);
+  -webkit-box-shadow: 0px 13.5277px 39.7872px rgba(187, 166, 255, 0.2);
+          box-shadow: 0px 13.5277px 39.7872px rgba(187, 166, 255, 0.2);
+  border-radius: 11.9362px;
+}
+.quote .quote-information .quote-information__items {
+  padding: 0px 31px 0px 31px;
+}
+.quote .quote-information .quote-information__items .quote__items {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  color: #303030;
+}
+.quote .quote-information .quote-information__items .quote__text {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  color: #303030;
+  white-space: pre-line;
+}
+
 .footer {
   border-top: 1px solid #303030;
 }
@@ -1742,4 +1771,31 @@ body {
   border-radius: 25%;
   border: 1px solid #303030;
   padding: 3.38px 3.38px 3.38px 3.38px;
+}
+.footer .container .footer-menu__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #E8EDF3;
+}
+.footer .container .footer-menu__bottom .bottom-information__left p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  color: #7A7A7A;
+}
+.footer .container .footer-menu__bottom .bottom-information__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.footer .container .footer-menu__bottom .bottom-information__right p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 20px;
+  color: #7A7A7A;
 }
